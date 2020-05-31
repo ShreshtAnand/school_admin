@@ -1,0 +1,38 @@
+Name = input("Enter your name: ")
+Reg_No = int(input("Registration Number: ")
+sub1 = int(input("Marks of Subject 1: "))
+sub2 = int(input("Marks of Subject 2: "))
+sub3 = int(input("Marks of Subject 3: "))
+sub4 = int(input("Marks of Subject 4: "))
+sub5 = int(input("Marks of Subject 5: "))
+
+total = sub1 + sub2 + sub3 + sub4 + sub5
+
+Average = total/5
+print(Average: ",Average)
+
+if average in range(90,100):
+    print(Name, "Your grade is O.")
+elif average in range(80,90):
+    print(Name, "Your grade is A.")
+elif average in range(70,80):
+    print(Name, "Your grade is B.")
+elif average in range(60,70):
+    print(Name, "Your grade is C.")
+elif average in range(50,60):
+    print(Name, "Your grade is D.")
+else:
+    print(Name, "sorry you have failed")
+    
+Output: 
+Enter your name: Shresht Anand
+Registration Number: 1234
+Marks of Subject 1: 80
+Marks of Subject 2: 85
+Marks of Subject 3: 75 
+Marks of Subject 4: 80
+Marks of Subject 5: 85
+
+Average: 81
+
+Shresht Anand, Your grade is A.
